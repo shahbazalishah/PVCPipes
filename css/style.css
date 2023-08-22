@@ -12,7 +12,7 @@
 
 .head-box {
     color: #EEEEEE;
-    margin: 0%;
+        margin: 0%;
 }
 
 .back-to-top {
@@ -637,6 +637,92 @@
 }
 
 .logo {
-    margin-left: 35px !important;
+    margin-left: -15px !important;
     margin-top: 16px;
 }
+
+.logo-2{
+    margin-right: -15px !important;
+}
+.navbar-new {
+    /* background-color: #333; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .navbar-heading-new {
+    font-size: 54px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 150;
+  }
+  .top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #17224D;
+    height: auto;
+  }
+
+
+
+
+
+
+
+  h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  h1 span {
+    display: block;
+    font-size: 0.4em;
+    line-height: 1;
+  }
+  h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+
+
+
+  .nine h1 {
+    text-align:center; font-size:50px; text-transform:uppercase; color:#ffffff; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+  }
+  .nine h1 span {
+    margin-top: 5px;
+      font-size:15px; color:#c5bdbd; word-spacing:1px; font-weight:normal; letter-spacing:1px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 10px;
+      align-items: center;
+  }
+  
+    .nine h1 span:after,.nine h1 span:before {
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        height: 5px;
+        background-color:#f8f8f8;
+    }
+  
