@@ -1,9 +1,9 @@
-/********** Template CSS **********/
+********* Template CSS *********
 :root {
     --primary: #1E60AA;
     --secondary: #FF4917;
     --light: #EDF1FC;
-    --dark: #17224D;
+    --dark: #184a8f;
 }
 
 .fw-medium {
@@ -88,7 +88,7 @@
     transition: .5s;
     z-index: 9999;
     /* margin-right: 200px; */
-    background-color: #17224D;
+    background-color: #184a8f;
 
 }
 
@@ -98,7 +98,7 @@
     transition: .5s;
     z-index: 9999;
     margin-right: 200px;
-    background-color: #17224D;
+    background-color: #184a8f;
 
 }
 
@@ -121,7 +121,7 @@
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: var(--light);
+    color: var(--light) !important;
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
@@ -130,7 +130,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--light) !important;
 }
 
 @media (max-width: 991.98px) {
@@ -159,6 +159,7 @@
         opacity: 0;
         visibility: hidden;
         transition: .5s;
+        color: var(--light)
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -166,6 +167,7 @@
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        color: var(--light)
     }
 }
 
@@ -611,7 +613,7 @@
 .box {
     display: flex;
     flex-direction: row;
-    background-color: #17224D;
+    background-color: #184a8f;
     justify-content: center;
 }
 
@@ -637,12 +639,16 @@
 }
 
 .logo {
-    margin-left: -15px !important;
+    margin-left: -65px !important;
     margin-top: 16px;
 }
 
 .logo-2 {
-    margin-right: -15px !important;
+    /* margin-right: -15px; */
+    max-width: 100px;
+    margin: auto;
+    height: 80px;
+    margin-top: 10px;
 }
 
 .navbar-new {
@@ -668,7 +674,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    background-color: #17224D;
+    background-color: #184a8f;
     height: auto;
 }
 
@@ -703,20 +709,22 @@ h1 em {
 }
 
 
-
+.nine {
+    margin: auto;
+}
 .nine h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 3vw;
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 1px;
     font-family: "Playfair Display", serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .nine h1 span {
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 1vw;
     color: #c5bdbd;
     word-spacing: 1px;
     font-weight: normal;
@@ -748,3 +756,43 @@ h1 em {
         display: none;
     }
 }
+
+.navvvvbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-bar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: ce/nter; */
+    align-items: center;
+    color: #fff;
+    margin-top: 40px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
