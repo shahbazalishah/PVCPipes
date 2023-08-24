@@ -155,7 +155,7 @@
         display: block;
         border: none;
         margin-top: 0;
-        top: 150%;
+        top: 100%;
         opacity: 0;
         visibility: hidden;
         transition: .5s;
@@ -256,7 +256,15 @@
 }
 
 .page-header {
-    background: url(../img/pipesss.jpg) center center no-repeat;
+    background: url(../img/pipesss.jpeg) center center no-repeat;
+    background-size: cover;
+}
+.page-header-1 {
+    background: url(../img/mdpe-big.png) center center no-repeat;
+    background-size: cover;
+}
+.page-header-2 {
+    background: url(../img/upvc.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -711,6 +719,7 @@ h1 em {
 
 .nine {
     margin: auto;
+    /* margin-left: 150px; */
 }
 .nine h1 {
     text-align: center;
@@ -769,13 +778,33 @@ h1 em {
     align-items: center;
     color: #fff;
     margin-top: 40px;
-    
+    margin-left: -150px;
+    gap: 15px;
 }
 
 
 
+.warrnty-card{
+    background-color: #184a8f;
+    height: 28em;
+    display: flex;
+justify-content: space-around;
+flex-direction: column;
 
 
+}
+.text-2{
+    color: #fff;
+    text-align: center;
+    /* background-color: #FF4917; */
+}
+.image-div{
+height: 200px;
+width: 220px;
+/* justify-content: center;
+align-items: center; */
+margin-left: 55px;
+}
 
 
 
