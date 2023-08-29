@@ -832,8 +832,9 @@ align-items: center; */
     .big-heading {
         display: none;
     }
-   
+
 }
+
 @media (min-width:375px) {
     .big-heading {
         font-size: 23px;
@@ -843,5 +844,6 @@ align-items: center; */
         color: #ffffff;
         letter-spacing: 1px;
         font-family: "Playfair Display", serif;
-        font-weight: 300;        }
+        font-weight: 300;
+    }
 }
