@@ -809,5 +809,39 @@ h1 em {
     width: 220px;
     /* justify-content: center;
 align-items: center; */
-margin: auto;
+    margin: auto;
+}
+
+.top-heading {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.big-heading {
+    font-size: 28px;
+    margin-top: 35px;
+    margin-right: -20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+}
+
+@media (min-width:600px) {
+    .big-heading {
+        display: none;
+    }
+   
+}
+@media (min-width:375px) {
+    .big-heading {
+        font-size: 23px;
+        margin-top: 45px;
+        margin-right: -10px;
+        text-transform: uppercase;
+        color: #ffffff;
+        letter-spacing: 1px;
+        font-family: "Playfair Display", serif;
+        font-weight: 300;        }
 }
