@@ -725,7 +725,7 @@ h1 em {
 
 .nine h1 {
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.7vw;
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 1px;
@@ -784,7 +784,13 @@ h1 em {
     gap: 15px;
 }
 
-
+@media screen and (max-width: 600px) {
+    .button-bar {
+        margin-left: -100px;
+        margin-top: 60px;
+        font-size: 4vw;
+    }
+}
 
 .warrnty-card {
     background-color: #184a8f;
@@ -832,18 +838,24 @@ align-items: center; */
     .big-heading {
         display: none;
     }
-
 }
 
-@media (min-width:375px) {
+@media (max-width:600px) {
     .big-heading {
-        font-size: 23px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:375px) {
+    .big-heading {
+        font-size: 14px;
         margin-top: 45px;
-        margin-right: -10px;
+        margin-right: 0px;
+        width: 100px;
         text-transform: uppercase;
         color: #ffffff;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         font-family: "Playfair Display", serif;
-        font-weight: 300;
+        font-weight: 700;
     }
 }
