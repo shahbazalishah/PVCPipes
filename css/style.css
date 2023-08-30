@@ -776,7 +776,6 @@ h1 em {
 .button-bar {
     display: flex;
     flex-direction: row;
-    /* justify-content: ce/nter; */
     align-items: center;
     color: #fff;
     margin-top: 40px;
